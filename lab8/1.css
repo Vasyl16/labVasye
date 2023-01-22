@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+	font-family: 'Conv_AdobeDevanagari-BoldItalic';
+	src: url('font/AdobeDevanagari-BoldItalic.eot');
+	src: local('☺'), url('font/AdobeDevanagari-BoldItalic.woff') format('woff'), url('font/AdobeDevanagari-BoldItalic.ttf') format('truetype'), url('font/AdobeDevanagari-BoldItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+  
+  margin:0;
+  
+  
+  
+}
+
+  @media all and (max-width: 575px) {
+  body { 
+    margin: 0;
+ }
+}
+p.gg{
+  font-family: 'Conv_AdobeDevanagari-BoldItalic';
+
+}
+p{
+  font-family: ROBOTO;
+ 
+}
+div.parent{
+  display:flex;
+  margin-bottom: 0;
+ 
+  width: 100%;
+}
+
+div.font{
+  font-family: 'fonnt1';
+}
+div.two{
+  background-color:yellow;
+  width:30%  
+}
+
+div.one{
+  background-color:blue;
+  width: 100%;
+  
+  min-height: 15vh;
+  
+  
+}
+div.first{
+  height:100%;
+  width:70%
+
+
+}
+div.three{
+  border:1px solid black;
+  padding:calc(1% + 10px);
+  max-width:100%;
+  min-height: 70vh;
+ 
+ 
+}
+div.gg{
+  width:70%;
+  margin-left:10%;
+  margin-right:10%;
+  
+}
+div.four{
+  background-color:blue;
+  width:100%;
+  min-height:15vh; 
+}
+
+.tooltip{
+font-family: fonnt1;
+position: relative;
+border: 2px solid red;
+text-decoration: none
+}
+.tooltip::after{
+  position:absolute;
+  content: attr(data-tooltip);
+  background-image: linear-gradient(orange, red);
+  left: 20%;
+  transform:translateY(-100%);
+  opacity: 0;
+  transition:3s;
+}
+.tooltip:hover::after{
+  opacity: 1;
+
+}

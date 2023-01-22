@@ -1,0 +1,113 @@
+
+div.one{
+background-color:aqua;
+width:px;
+border: none;
+
+}
+div.two{ margin-left: 60px;
+  margin-top:60px;
+  background-color:gray;
+  border:solid 1px red;
+
+}
+div.three{margin-left:120px;
+  margin-top:120px;
+  background-color:green;
+border:dashed 1px gray;}
+
+body.one{height:10000px}
+
+div.forth{position: absolute;
+  right:0;
+}
+div.third{
+  position:static;
+  text-align: center ;
+}
+div.second{
+  position:relative;
+  
+  
+}
+div.first{position: fixed;
+   right :0;
+}
+
+body.float p{
+  background-color: aqua;
+  width:300px;
+  margin:0px;
+ 
+}
+
+div.in{
+  float:top;
+}
+div.left{
+  float:left;
+}
+div.right{
+  float:right;
+}
+div.initial{
+  float:initial;
+}
+div.inherit{
+  float:inherit;
+
+}
+div.inl-st{
+  float:inline-start
+}
+div.bottom{
+  float:bottom;
+}
+div.block{
+  
+  width: 500px;
+  background-color: orange;
+
+}
+p.gg{
+  width:600px;
+}
+
+#left{
+  clear:left;
+}
+ #both{
+  clear:both;
+ }
+ #right{
+  clear:right;
+ }
+ #none{clear:none}
+
+ div.num1{
+  z-index: 1;
+  background-color:  black;
+  width:200px;
+  height:200px;
+  top: 120px;
+  position:relative
+ }
+ div.num2{
+  z-index:  2;
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  left:50px;
+  right:50px;
+  position:relative;
+  top:60px
+ }
+ div.num3{
+  z-index:  3;
+  background-color:  green;
+  width:200px;
+  height:200px;
+  position:relative;
+  left:100px
+  
+ }

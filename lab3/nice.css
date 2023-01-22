@@ -1,0 +1,90 @@
+table.h {
+  border:5px solid  purple;
+  width :40%;
+  height:200;
+}
+table.h th{
+ border:1px solid rgb(202, 112, 202);
+ width:150;
+}
+
+table.h th.g{
+  height:150; 
+  text-align:right;
+  vertical-align:top;  
+
+
+}
+table.i{
+  border:2px solid green;
+  border-spacing: 20;
+ 
+  width:500
+
+}
+table.i th.i{
+ 
+  border:1px solid green;
+  
+  text-align:left
+}
+table.f{
+  border:1px solid orange;
+  border-spacing:30;
+  width:1000
+}
+table.f th{border-spacing:0;
+text-align:left;}
+th.f{
+  border:1px solid orange;
+  
+}
+th.a{border:1px solid aqua}
+th.n{border:1px solid green}
+
+table.k{ border:2px solid green;;
+width:500;
+height:70;
+border-spacing:0;}
+table.k th{border:1px solid green}
+th.m{text-align:left;
+padding:5}
+th.d{color:blue}
+th.v{text-align:left;
+  padding:5;
+color:pink;}
+
+table.s{border-right: 3px solid pink;
+border-left:3px solid pink;
+width:300;
+text-align:left}
+
+table.s th.s{text-align:center;
+  column-rule-color: pink; 
+  background-color:greenyellow}
+  table.s th.q{text-align:center;
+ 
+    background-color:greenyellow;
+    border: l0;
+  border: right 0}
+
+
+  table.hh{
+    width:100
+  }
+  th.hh{border:2px solid silver;}
+  th.hg{border:2px solid silver;
+  text-align: top}
+  
+  table.nn{width:200;height:200}
+  table.nn th{border:2px solid blue;
+  padding: 20;}
+  th.oo{background-color: orange;}
+  th.pp{background-color: purple;}
+  th.bb{background-color: aqua;}
+  
+  table.ff{border:2px solid aqua}
+  table.ff th{border:2px solid aqua}
+  table.ff th.ee{border:2px solid purple}
+  td.no{border: none;text-align:center}
+ table.ff th.ll{border:2px solid rgb(30, 5, 142);}

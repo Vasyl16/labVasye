@@ -1,0 +1,101 @@
+
+body{  background-image: radial-gradient(red, yellow);
+
+}
+header{
+  margin-top:50px;
+  margin-left:50px;
+  background-image: linear-gradient(red, yellow);
+
+}
+mark{
+  background-image: url(img/bg_menu.gif);
+  text-align: center;
+  text-decoration: underline red;
+  outline:solid gold;
+  caret-color:blue;
+  outline-style:solid;
+  resize:none;
+  text-shadow: 10px 10px 10px #000;
+  transition:0s;
+  
+}
+mark:hover{
+  background-image: linear-gradient(pink,red);
+  
+}
+
+aside{
+  border:1px solid black;
+  
+  width : 250px;
+}
+h2.two{
+  margin-top: 50px;
+  margin-left:50px;
+  text-decoration: wavy underline cornflowerblue;
+  background-color: orange;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-property:background-color;
+  transition-timing-function: linear;
+  
+  }
+h2.one{
+  text-align: center  ;
+  
+}
+h2.two:hover{
+  background-color:red;
+  height:50px
+}
+section{
+  width:600px;
+  float:left;
+
+}
+
+
+
+img{
+  width:200px;
+  height:200px;
+  cursor:none;
+  
+ 
+  border: 16px solid #666;
+  border-image-source: url(image/bg_menu.gif);
+  border-image-repeat:repeat x;
+  border-image-width:100%;
+ 
+  border-image-outset:5px;
+ 
+}
+
+figure{
+  margin-left:450px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+figcaption{
+  margin-left: 210px;
+}
+section.one{
+  border:1px solid black;
+  border-radius: 20px;
+}
+section.two{
+
+  border-image: url(image/bg_menu.gif) ;
+  border-image-width:5px;
+  border-image-source:url(image/)
+
+}
+footer{
+  
+
+  border:1px solid black;
+  width:300px;
+  transform: skewX(10deg) skewY(35deg);
+  margin:100px 100px;}
+  

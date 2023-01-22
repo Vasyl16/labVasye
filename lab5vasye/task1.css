@@ -1,0 +1,45 @@
+body{background-image: url(img/bg_menu.gif);
+}
+header{
+  margin-top:50px;
+  margin-left:30px
+}
+mark{
+  background-image: url(img/bg_menu.gif);
+  text-align: center;
+
+}
+aside{
+  border:1px solid black;
+  background-color: whitesmoke;
+  width : 250px;
+}
+h2.two{
+  margin-top: 50px;
+  margin-left:50px;
+}
+h2.one{
+  text-align: center  ;
+}
+section{
+  width:600px;
+  float:left;
+}
+
+
+
+img{
+  width:200px;
+  height:200px;
+ 
+}
+
+figure{
+  margin-left:450px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+figcaption{
+  margin-left: 210px;
+}
+

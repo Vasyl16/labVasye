@@ -1,0 +1,66 @@
+body{
+  position: static;
+  background-image: url(img/ramka.gif);
+  background-repeat:repeat-y;
+  background-attachment: fixed;
+ 
+  
+ 
+  
+  
+  
+  
+
+  
+}
+div {
+  padding: 10px;
+  margin-top: 100px;
+  position:absolute;
+  background-color:white;
+ 
+ 
+  
+}
+div.one{
+  float:left;
+  border: 1px solid  red;
+  
+ 
+  width:600px;
+  height:120%;
+  
+  
+  background-image: url(img/bg_menu.gif);
+  background-repeat: repeat-x;
+  background-position:center ;
+
+  
+
+}
+p{
+  margin-left:15px;
+}
+div.two{
+  
+  float:left;
+  border: 1px solid red;
+  width:400px;
+  margin-left: 640px;
+
+  height:120%;
+  background-image: url(img/bg_menu.gif);
+  background-repeat: repeat-x;
+}
+h4{
+  text-align: center;
+  font-weight: bold;
+  font-weight:italic;
+
+}
+div.gg{
+  font-weight: bold;
+  font-weight:italic;
+
+}
+

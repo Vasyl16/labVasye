@@ -1,0 +1,61 @@
+body{
+  
+  margin:0;
+  
+  
+  
+}
+
+div.parent{
+  display:flex;
+  
+  width: 100%;
+}
+
+
+div.two{
+  background-color:yellow;
+  width:30%;
+  display:inline-block
+  
+  
+
+  
+  
+ 
+  
+}
+div.one{
+  background-color:blue;
+  width: 100%;
+  
+  min-height: 15vh;
+  
+  
+}
+div.first{
+  height:100%;
+  width:70%
+
+
+}
+div.three{
+  border:1px solid black;
+  width:100%;
+  min-height: 70vh;
+ 
+ 
+}
+div.gg{
+  width:70%;
+  margin-left:10%;
+  margin-right:10%
+}
+div.four{
+  background-color:blue;
+  width:100%;
+  min-height:15vh;
+  
+ 
+  
+}

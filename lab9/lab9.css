@@ -1,0 +1,23 @@
+body {
+  margin-right: 10px !important;
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.carousel-control-next-icon {
+  background-image: url(img/free-icon-next-130884.png) !important ;
+}
+.carousel-control-prev-icon {
+  background-image: url(img/free-icon-back-130882.png) !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 20px !important;
+}
+.carousel-control-next {
+  right: -20px !important;
+}
+.carousel-control-prev {
+  left: -20px !important;
+}

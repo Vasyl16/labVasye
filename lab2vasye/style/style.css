@@ -1,0 +1,85 @@
+a {
+color:red
+}
+a.list1
+{color:black}
+a.list2{color:green}
+#exam10{color:orange}
+p.ex{color:blue}
+p.ex5{background-color:aqua}
+body.body5{background-image:url("../image/1.jpg");
+  background-repeat:no-repeat;
+  background-size:300px;
+  background-attachment:fixed;
+  background-position:50% 30%
+}
+p.ex6{font-family: Arial, Candara, Century-Gothic, sans-serif}
+
+h1.ex7{
+  font-family: Arial, Candara, Century-Gothic, sans-serif;
+  font-style: normal;
+ }
+ h2.ex7{
+  font-family: Times New Roman, Georgia, serif;
+  font-style: italic;
+ }
+ p.ex7{
+  font-family: Times New Roman, Georgia, serif;
+  font-style: oblique;
+ }
+
+ p.ex8{
+  font-family: Arial, Candara, Century-Gothic, sans-serif;
+  font-style: normal;
+  font-variant: small-caps;
+ }
+ 
+ p.ex9{
+  font-family: Arial, Candara, Century-Gothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600
+ }
+
+ h1.ex10{
+  font-family: Arial, Candara, Century-Gothic, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+ }
+ h2.ex10{
+  font-family: Times New Roman, Georgia, serif;
+  font-style: italic;
+  font-size: 100pt;
+ }
+ h3.ex10{
+  font-family: Times New Roman, Georgia, serif;
+  font-style: italic;
+  font-size: 120%;
+ }
+ p.ex10{
+ font-style: italic;
+ font-weight: bold;
+ font-size: 30px;
+ font-family: arial, sans-serif; }
+
+p.ex10{text-indent:20% }
+p.ex10{text-align:justify}
+p.ex10{text-decoration:line-through}
+p.ex10{letter-spacing:0.2cm}
+p.ex10{text-transform:none}
+h1.ex10{text-transform:capitalize}
+h2.ex10{text-transform:uppercase}
+h3.ex10{text-transform:lowercase}
+*.ex10{background-color:blue }
+
+body h2.ex10{color:red}
+div#ddd > ul {color:red  } 
+ul ~ p {color: red;  } 
+ul + li.ex2{color:blue}
+ a[href="html/example1.html"] {color:orange}
+ a[href*="html"]{background-color:aqua}
+ a.gg:hover{border-bottom: 1px solid black;}
+ a:active {
+  color: gold;
+  font-weight: 400;
+ }
