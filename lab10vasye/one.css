@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+.one{
+  background-color: blue;
+  min-height: 100vh;
+}
+.line::first-letter{
+  font-size: 30px;
+}
+.line::first-line{
+  text-decoration: underline;
+}
+.ps::after{
+  content: "after";
+}
+.ps::before{
+  content: "before";
+}
+input:active{
+  border-color: red;
+}
+.ps:hover{
+  color: red;
+}
+a:visited{
+  color: aqua;
+}
+a:active{
+  color:blue !important;
+}
+.parent div:last-child{
+  color: red;
+}
+.parent div:first-child{
+  color: blue;
+}
+button:out-of-range{
+  border: 2px solid red;
+}
